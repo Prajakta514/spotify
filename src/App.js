@@ -21,7 +21,7 @@ function App() {
   const [tracks, setTracks] = useState([]);
   const [playlists, setPlaylists] = useState([]);
   const [albums, setAlbums] = useState([]);
-  const [genres, setGenres] = useState(["Old Songs", "Motivational", "Bollywood", "Spiritual", "Classical"]);
+  const [genres, setGenres] = useState(["Old Songs", "Motivational", "Bollywood", "Spiritual", "Classical", "Trending"]);
   const [load, setLoad] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
